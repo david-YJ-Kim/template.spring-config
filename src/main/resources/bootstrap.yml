@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:C:/Workspace/toy/spring-config/
